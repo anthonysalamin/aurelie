@@ -21,7 +21,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #fff8fa;
+  background-color: #fff8f6;
   -webkit-perspective: 1000px;
   perspective: 1000px;
 }
@@ -32,6 +32,7 @@
 }
 
 .text-block-6 {
+  margin-top: 40px;
   color: #273339;
   font-size: 16px;
   font-weight: 400;
@@ -58,7 +59,7 @@
 }
 
 .img-coming-soon {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .wrap-img-coming-soon {
@@ -87,6 +88,12 @@
 @media screen and (max-width: 767px) {
   .text-block-6 {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .text-block-6 {
+    margin-top: 40px;
   }
 }
 
